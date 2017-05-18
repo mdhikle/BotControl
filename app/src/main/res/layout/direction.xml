@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false" >
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_right" />
+
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView3"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_forward" />
+
+    <ImageButton
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_toLeftOf="@+id/imageView6"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_left" />
+
+    <ImageButton
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_forward" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_toLeftOf="@+id/imageView3" />
+
+    <ImageButton
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_right" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_backward" />
+
+    <ImageButton
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView2"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_backward" />
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:src="@drawable/ic_go_left" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_marginBottom="45dp"
+        
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView6"
+        android:text="Servo Control"
+        android:textColor="#ffd400"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/imageView5"
+        android:text="Motor Control"
+        android:textColor="#ffd400"
+        android:textSize="20dp" />
+
+</RelativeLayout>

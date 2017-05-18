@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.botcontrol.activity.MainActivity" >
+
+	<!-- TextView
+	    android:id="@+id/headStr"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="@string/headStr"
+	    android:textColor="#0000f0"
+	    android:textSize="30dp"
+	    android:textStyle="italic" /> -->
+
+	<Button
+	    android:id="@+id/btnSet"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Setting" />
+
+    <Button
+        android:id="@+id/btnConn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSet"
+        android:layout_alignBottom="@+id/btnSet"
+        android:layout_toRightOf="@+id/btnSet"
+        android:text="Connect" />
+
+    <!-- <Button
+        android:id="@+id/btnLoadTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnConn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/headStr"
+        android:layout_marginRight="37dp"
+        android:layout_toRightOf="@+id/btnConn"
+        android:text="测试" /> -->
+
+    <ImageButton
+        android:id="@+id/imageButtonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnConn"
+        android:layout_below="@+id/headStr"
+        android:layout_toRightOf="@+id/btnConn"
+        android:src="@drawable/test" />
+
+</LinearLayout>
