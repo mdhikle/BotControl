@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView2"
         android:layout_toRightOf="@+id/imageView2"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_right" />
 
     <ImageButton
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView3"
         android:layout_toLeftOf="@+id/imageView3"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_forward" />
 
     <ImageButton
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView6"
         android:layout_toLeftOf="@+id/imageView6"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_left" />
 
     <ImageButton
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView5"
         android:layout_toLeftOf="@+id/imageView5"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_forward" />
 
     <ImageView
@@ -54,7 +54,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/imageView7"
         android:layout_marginRight="20dp"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_right" />
 
     <ImageButton
@@ -64,7 +64,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dp"
         android:layout_toRightOf="@+id/imageView1"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_backward" />
 
     <ImageButton
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageView8"
         android:layout_alignTop="@+id/imageView2"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_backward" />
 
     <ImageButton
@@ -83,7 +83,7 @@
         android:layout_above="@+id/imageView2"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="20dp"
-        android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:background="@android:color/holo_blue_bright"
         android:src="@drawable/ic_go_left" />
 
     <ImageView
