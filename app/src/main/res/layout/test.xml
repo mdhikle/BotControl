@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-       <zfp.config.PaintVedio android:id="@+id/paintVedio"  
+       <com.example.android.botcontrol.config.PaintVideo android:id="@+id/paintVideo"
  		android:layout_width="fill_parent"  
  		android:layout_height="fill_parent"/>  
        

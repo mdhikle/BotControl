@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        setContentView(R.layout.main);
+        setContentView(R.layout.main);     // playing around for settings menu
         return super.onOptionsItemSelected(item);
     }
 

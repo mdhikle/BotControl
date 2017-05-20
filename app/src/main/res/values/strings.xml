@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Bot Control</string>
     <string name="action_settings">Settings</string>
+    <string name="settingStr">Elecrow Setting Home</string>
+    <string name="ctrStr">Elecrow Wifi Video Car</string>
+    <string name="testStr">Test Button</string> <!--Initial Comment - 测试界面-->
+
 
 </resources>
